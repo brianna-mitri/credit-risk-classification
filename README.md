@@ -21,4 +21,4 @@ The purpose of this is to create a machine learning model that analyzes loan ris
 ## Recommendation
 Model 2 is recommended as it accounts for the uneven portion of healthy versus high risk loans. Therefore, it better predicts high risk loans and identified ~100% of all high risk loans--7% more than Model 1. Model 2 even slightly performs better than Model 1 for predicting healthy loans.
 
-Furthermore, precision is the most important score here. Identifying high risk loans is more relevant than making sure healthy loans don't get miscategorized. It will just allow further investigation into those potentially risky loans; plus, Model 2 minimizes that miscategorization of healthy loans.
+Furthermore, recall is the most important score here. Identifying, all high risk loans is more relevant than making sure healthy loans don't get miscategorized. It will just allow further investigation into those potentially risky loans; plus, Model 2 minimizes that miscategorization of healthy loans.
